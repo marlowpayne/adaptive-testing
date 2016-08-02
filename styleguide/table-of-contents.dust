@@ -1,0 +1,18 @@
+<div class="living-style-guide__toc">
+    <form class="living-style-guide__search js-living-style-guide-search" id="component-search-form">
+        <input class="living-style-guide__search-field" type="text" placeholder="Search for a component..." id="autocomplete" autofocus>
+        <input class="living-style-guide__search-button" type="submit" value="Search">
+    </form>
+
+    <hr class="living-style-guide__toc-or"/>
+
+    <ul>
+        {#items}
+            <li class="living-style-guide__toc-tile">
+                <a href="{href}" class="living-style-guide__toc-anchor js-component-anchor">
+                    {body}
+                </a>
+            </li>
+        {/items}
+    </ul>
+</div>

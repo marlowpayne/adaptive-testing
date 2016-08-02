@@ -1,0 +1,23 @@
+<div class="living-style-guide" id="x-root">
+    <header class="living-style-guide__header">
+        <span class="living-style-guide__heading">Living Style Guide</span>
+    </header>
+
+    <main class="living-style-guide__body">
+        {! --------------------- !}
+        {!   Table of Contents   !}
+        {! --------------------- !}
+        <button class="living-style-guide__toc-fixed-button js-toc-trigger">Menu</button>
+        <div class="js-toc-content" id="tableOfContents"></div>
+
+        {! -------------- !}
+        {!   Components   !}
+        {! -------------- !}
+        {>"styleguide-components"/}
+    </main>
+
+    <footer class="living-style-guide__footer">
+        <span class="living-style-guide__heading">Living Style Guide</span>
+        <span class="living-style-guide__ipa"><strong>awl</strong> - m<em>uh</em> - nak</span>
+    </footer>
+</div>

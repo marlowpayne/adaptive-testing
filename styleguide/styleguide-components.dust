@@ -1,0 +1,10 @@
+{!--
+Please try and keep the components in an alphabetical order
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+--!}
+
+<article class="living-style-guide__item" id="example">
+    {#styleguideExample}
+        {>"components/styleguide-example/styleguide-example" /}
+    {/styleguideExample}
+</article>

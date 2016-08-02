@@ -1,0 +1,14 @@
+{
+    "activeProfile": "preview",
+    "profiles": {
+        "preview": {
+            "bundleUrl": "http://localhost:8080/adaptive.js",
+            "siteUrl": "http://www.google.com"
+        },
+        "production": {
+            "bundleUrl": "",
+            "siteUrl": "http://www.google.com",
+            "production": true
+        }
+    }
+}
